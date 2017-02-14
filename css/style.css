@@ -22,7 +22,7 @@ html {
 }
 
 .bg {
-  background-image: url("../img/bg.jpg");
+  background-image: url("../img/bg.svg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -118,7 +118,7 @@ a:hover {
   -webkit-transform: translateZ(-1px) scale(2);
   -ms-transform: translateZ(-1px) scale(2);
   transform: translateZ(-1px) scale(2);
-  background-image: url("../img/mounts_1.png");
+  background-image: url("../img/montagne.svg");
   margin-top: 78%;
   z-index: -3;
 }
@@ -158,7 +158,7 @@ a:hover {
   -webkit-transform: translateZ(0) scale(1);
   -ms-transform: translateZ(0) scale(1);
   transform: translateZ(0) scale(1);
-  background-image: url("../img/drone_a.png");
+  background-image: url("../img/boom1.svg");
   width: 38vw;
   margin-top: 13%;
   z-index: -7;
@@ -169,7 +169,7 @@ a:hover {
   -webkit-transform: translateZ(-3px) scale(4);
   -ms-transform: translateZ(-3px) scale(4);
   transform: translateZ(-3px) scale(4);
-  background-image: url("../img/drone_b.png");
+  background-image: url("../img/boom2.svg");
   margin: auto;
   margin-top: 13%;
   right: 0px;

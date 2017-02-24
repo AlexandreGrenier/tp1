@@ -138,7 +138,7 @@ a:hover {
   -webkit-transform: translateZ(0) scale(1);
   -ms-transform: translateZ(0) scale(1);
   transform: translateZ(0) scale(1);
-  background-image: url("../img/boom1.svg");
+  background-image: url("../img/boom4.svg");
   width: 38vw;
   margin-top: 13%;
   z-index: -7;
@@ -148,7 +148,7 @@ a:hover {
   -webkit-transform: translateZ(-3px) scale(4);
   -ms-transform: translateZ(-3px) scale(4);
   transform: translateZ(-3px) scale(4);
-  background-image: url("../img/boom2.svg");
+  background-image: url("../img/boom4.svg");
   margin: auto;
   margin-top: 13%;
   right: 0px;
@@ -246,6 +246,8 @@ h1 {
   display: flex;
   -webkit-flex-flow: row wrap;
   justify-content: space-between;
+  width: 85%;
+  margin: auto;
 }
 .child {
   height: 400px;

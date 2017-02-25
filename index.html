@@ -14,7 +14,7 @@
   <body>
 
 
-<div class="parallax">
+<div id="parallaxID" class="parallax" onscroll="changerOpacite()">
 
     <div class="parallax__group">
     <div class="scroll-fill"></div>
@@ -117,15 +117,16 @@
     </div>
     <div class="clearfix"></div>
     <div class="base"></div>
-  </div>
+    </div>
     <script>
-    window.addEventListener("scroll", changerOpacite);
-    function changerOpacite() {   
-      var fractionDuScroll = (document.body.scrollTop + document.documentElement.scrollTop) / (document.documentElement.scrollHeight - document.documentElement.clientHeight);
-      //var opaciteNuages =  * fractionDuScroll;
-      document.getElementById("nuagesOP_ID").opacity = "0.2";
+      var parallax = document.querySelectorAll("#parallaxID")[0];
+        function changerOpacite(){
+           var fractionDuScroll = Math.min(parallax.scrollTop - window.innerHeight, parallax.scrollHeight - window.innerHeight) / (parallax.scrollHeight - window.innerHeight);
+            document.getElementById("nuagesOP_ID").style.opacity =-fractionDuScroll+0.3;
+          
+        }
 
-    }
     </script>
+    
   </body>
 </html>
